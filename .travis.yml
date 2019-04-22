@@ -7,8 +7,5 @@ android:
   - tools
   - com.android.tools.build:gradle:3.3.1
 
-  licenses:
-  - android-sdk-license-.+
-
 script:
   - ./gradlew :app:assembleRelease
